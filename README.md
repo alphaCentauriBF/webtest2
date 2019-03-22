@@ -85,10 +85,10 @@ test_initdb_command (test_cli.CLITestCase) ... FAIL
 ## 项目背景
 
 本项目是一个图文网站，假设冯桂璠是项目的发起者，在这里创建了一个仓库，然后你们都与冯桂璠进行协作开发，在代码中注释的部分假装是没有实现的功能，我们每个人都负责其中的一部分，为了方便我们直接把注释去掉即可直接运行。下面假装我是小黑，我使用pycharm与github desktop。
-下面均为文字说明* [某视频教程](https://www.bilibili.com/video/av34406290?from=search&seid=2690806862014865878)处可以看到视频演示，包含下面的大部分操作。
+下面均为文字说明[某视频教程](https://www.bilibili.com/video/av34406290?from=search&seid=2690806862014865878)处可以看到视频演示，包含下面的大部分操作。
 
 ### fork项目
-首先，我在* [项目地址](https://github.com/alphaCentauriBF/webtest2)
+首先，我在[项目地址](https://github.com/alphaCentauriBF/webtest2)
 处找到项目，然后点击右上角的fork按钮，然后点击右上角的头像下拉框中的your respository可以找到刚才fork的仓库
 在绿色的clone or download按钮中可以将其下载到本地（需要注意的是，下载的时候请选择当前的分区为dev，在branch中可以切换当前分支），然后即可下载文件到本地并进行修改。
 ### 可能出现的问题
