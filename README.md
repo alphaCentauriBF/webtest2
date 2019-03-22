@@ -7,7 +7,7 @@
 * [某视频教程](https://www.bilibili.com/video/av34406290?from=search&seid=2690806862014865878) - 以需求驱动的一个教学视频，通过这个视频可以了解一些基本的用法，建议看一下。
 * [github中文非官方使用文档](https://github.com/alphaCentauriBF/github) - 一个Github使用教程，想系统学习或者遇到问题时可以查阅。
 * [官方文档的一个翻译版本](http://120.79.23.183/github-xiang-dao.html) - 我翻译的。
-
+上面的教程中，Git教程如果时间不够可以先不看，中文非官方使用文档可以作为参照使用，视频教程包含我们下面提到的大部分操作。
 ## 起步
 
 在开始之前，考虑到某些同学没看过上面的教程，这里给出对我们使用Github过程中常使用到的名词的解释。
@@ -84,12 +84,36 @@ test_initdb_command (test_cli.CLITestCase) ... FAIL
 
 ## 项目背景
 
-本项目是一个图文网站，假设我（冯桂璠）是项目的发起者，我在这里创建了一个仓库，然后你们都与我进行协作开发，在代码中注释的部分假装是没有实现的功能，我们每个人都负责其中的一部分，为了方便我们直接把注释去掉即可直接运行。下面假装我是小黑，我使用pycharm与github desktop。
-### fork项目
-首先，我
-## Acknowledgments
+本项目是一个图文网站，假设冯桂璠是项目的发起者，在这里创建了一个仓库，然后你们都与冯桂璠进行协作开发，在代码中注释的部分假装是没有实现的功能，我们每个人都负责其中的一部分，为了方便我们直接把注释去掉即可直接运行。下面假装我是小黑，我使用pycharm与github desktop。
+下面均为文字说明* [某视频教程](https://www.bilibili.com/video/av34406290?from=search&seid=2690806862014865878)处可以看到视频演示，包含下面的大部分操作。
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+### fork项目
+首先，我在* [项目地址](https://github.com/alphaCentauriBF/webtest2)
+处找到项目，然后点击右上角的fork按钮，然后点击右上角的头像下拉框中的your respository可以找到刚才fork的仓库
+在绿色的clone or download按钮中可以将其下载到本地（需要注意的是，下载的时候请选择当前的分区为dev，在branch中可以切换当前分支），然后即可下载文件到本地并进行修改。
+### 可能出现的问题
+在实际开发中，你fork的项目不会随着原项目的改变而改变，当两个项目产生偏差的时候，你可以直接将自己的删除再重新获取，或者通过pull request的方式将自己fork的仓库进行更新。具体的步骤是在自己的仓库中点击项目的pull request
+会看到以下的提示
+```
+Pull requests help you collaborate on code with other people. As pull requests are created, they’ll appear here in a searchable and filterable list. To get started, you should create a pull request.
+```
+点击 create a pull request.
+后会进入一个页面，可能会有下述的提示
+```
+There isn’t anything to compare.
+alphaCentauriBF:master is up to date with all commits from RAINLFF:master. Try switching the base for your comparison.
+```
+代表你的代码已经与代码源有了偏差，点击switching the base即可将自己的代码进行更新，点击后一路确定，然后在自己的仓库的项目的pull request处可以看到一个请求，点进去然后点击绿色的merge按钮即可合并。(原理就是通过pull request向自己的仓库发起合并请求，将新代码合并到自己的仓库中)
+然后一路确定即可将自己的代码更新。
+
+### 修改代码
+修改可以在本地进行，也可以在网页上进行，我这里在本地做了修改，然后打开GitHub desktop可以看到它提示我们对文件做了修改，这时候可以在上面的current branch中选择当前的分支，然后将其切换到dev分支，然后commit to dev将这个修改提交（关于commit的概念可以在git教程中看到），提交后即可推送至github服务器上。
+
+### 推送
+点击push oringin 即可进行推送，这时候在网页端能够看到自己的代码(dev分支)发生了改变，这时候提交pull request即可将自己的代码与代码源进行合并。
+可以在项目的pull request处提交pull request，这时候只要冯桂璠同意了这个请求，冯桂璠处的代码也会更新。
+
+### 备注
+本次作业只是对于github的初级使用，让同学们了解到大概的工作流，更多的操作同学们可以自己去学习，或者一起探讨。
+
 
