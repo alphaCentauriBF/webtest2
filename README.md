@@ -111,7 +111,7 @@ alphaCentauriBF:master is up to date with all commits from RAINLFF:master. Try s
 
 ### 推送
 点击push oringin 即可进行推送，这时候在网页端能够看到自己的代码(dev分支)发生了改变，这时候提交pull request即可将自己的代码与代码源进行合并。
-可以在项目的pull request处提交pull request，这时候只要冯桂璠同意了这个请求，冯桂璠处的代码也会更新。
+可以在项目的pull request处提交pull request，这时候只要冯桂璠同意了这个请求，冯桂璠处的代码也会更新。提交pull request后可以将自己的分支删除了。
 
 ### 备注
 本次作业只是对于github的初级使用，让同学们了解到大概的工作流，更多的操作同学们可以自己去学习，或者一起探讨。
