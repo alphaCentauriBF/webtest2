@@ -7,7 +7,7 @@
 * [某视频教程](https://www.bilibili.com/video/av34406290?from=search&seid=2690806862014865878) - 以需求驱动的一个教学视频，通过这个视频可以了解一些基本的用法，建议看一下。
 * [github中文非官方使用文档](https://github.com/alphaCentauriBF/github) - 一个Github使用教程，想系统学习或者遇到问题时可以查阅。
 * [官方文档的一个翻译版本](http://120.79.23.183/github-xiang-dao.html) - 我翻译的。
-
+上面的教程中，Git教程如果时间不够可以先不看，中文非官方使用文档可以作为参照使用，视频教程包含我们下面提到的大部分操作。
 ## 起步
 
 在开始之前，考虑到某些同学没看过上面的教程，这里给出对我们使用Github过程中常使用到的名词的解释。
@@ -85,7 +85,7 @@ test_initdb_command (test_cli.CLITestCase) ... FAIL
 ## 项目背景
 
 本项目是一个图文网站，假设冯桂璠是项目的发起者，在这里创建了一个仓库，然后你们都与冯桂璠进行协作开发，在代码中注释的部分假装是没有实现的功能，我们每个人都负责其中的一部分，为了方便我们直接把注释去掉即可直接运行。下面假装我是小黑，我使用pycharm与github desktop。
-下面均为文字说明* [某视频教程](https://www.bilibili.com/video/av34406290?from=search&seid=2690806862014865878) - 以需求驱动的一个教学视频，通过这个视频可以了解一些基本的用法，建议看一下。
+下面均为文字说明* [某视频教程](https://www.bilibili.com/video/av34406290?from=search&seid=2690806862014865878)处可以看到视频演示，包含下面的大部分操作。
 
 ### fork项目
 首先，我在* [项目地址](https://github.com/alphaCentauriBF/webtest2)
@@ -107,10 +107,13 @@ alphaCentauriBF:master is up to date with all commits from RAINLFF:master. Try s
 然后一路确定即可将自己的代码更新。
 
 ### 修改代码
-修改可以在本地进行，也可以在网页上进行，我这里在本地做了修改，然后打开GitHub desktop可以看到它提示我们对文件做了修改，这时候可以在上面的current branch中选择当前的分支，然后将其切换到dev分支，然后commit to dev将这个修改提交（关于commit的概念可以在git教程中看到），提交后即可推送至网页上。
+修改可以在本地进行，也可以在网页上进行，我这里在本地做了修改，然后打开GitHub desktop可以看到它提示我们对文件做了修改，这时候可以在上面的current branch中选择当前的分支，然后将其切换到dev分支，然后commit to dev将这个修改提交（关于commit的概念可以在git教程中看到），提交后即可推送至github服务器上。
 
 ### 推送
 点击push oringin 即可进行推送，这时候在网页端能够看到自己的代码(dev分支)发生了改变，这时候提交pull request即可将自己的代码与代码源进行合并。
 可以在项目的pull request处提交pull request，这时候只要冯桂璠同意了这个请求，冯桂璠处的代码也会更新。
+
+### 备注
+本次作业只是对于github的初级使用，让同学们了解到大概的工作流，更多的操作同学们可以自己去学习，或者一起探讨。
 
 
