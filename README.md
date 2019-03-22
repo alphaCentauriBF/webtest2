@@ -107,7 +107,7 @@ alphaCentauriBF:master is up to date with all commits from RAINLFF:master. Try s
 然后一路确定即可将自己的代码更新。
 
 ### 修改代码
-修改可以在本地进行，也可以在网页上进行，我这里在本地做了修改，然后打开GitHub desktop可以看到它提示我们对文件做了修改，这时候可以在上面的current branch中选择当前的分支，然后将其切换到dev分支，然后commit to dev将这个修改提交（关于commit的概念可以在git教程中看到），提交后即可推送至github服务器上。
+修改可以在本地进行，也可以在网页上进行，我这里在本地做了修改，然后打开GitHub desktop可以看到它提示我们对文件做了修改，这时候可以在上面的current branch中选择当前的分支，然后将其切换到dev分支，然后commit to dev(如果没有切换的话)将这个修改提交（关于commit的概念可以在git教程中看到），提交后即可推送至github服务器上。
 
 ### 推送
 点击push oringin 即可进行推送，这时候在网页端能够看到自己的代码(dev分支)发生了改变，这时候提交pull request即可将自己的代码与代码源进行合并。
