@@ -88,9 +88,10 @@ test_initdb_command (test_cli.CLITestCase) ... FAIL
 ### fork项目
 首先，我在* [项目地址](https://github.com/alphaCentauriBF/webtest2)
 处找到项目，然后点击右上角的fork按钮，然后点击右上角的头像下拉框中的your respository可以找到刚才fork的仓库
-在绿色的clone or download按钮中可以将其下载到本地，然后即可下载文件到本地并进行修改。
+在绿色的clone or download按钮中可以将其下载到本地（需要注意的是，下载的时候请选择当前的分区为dev，在branch中可以切换当前分支），然后即可下载文件到本地并进行修改。
 ```
-可能出现的问题，在实际开发中，你fork的项目不会随着原项目的改变而改变，当两个项目产生偏差的时候，你可以直接将自己的删除再重新获取，或者通过pull request的方式将自己fork的仓库进行更新。具体的步骤是在自己的仓库中点击项目的pull request
+可能出现的问题
+在实际开发中，你fork的项目不会随着原项目的改变而改变，当两个项目产生偏差的时候，你可以直接将自己的删除再重新获取，或者通过pull request的方式将自己fork的仓库进行更新。具体的步骤是在自己的仓库中点击项目的pull request
 会看到以下的提示
 Pull requests help you collaborate on code with other people. As pull requests are created, they’ll appear here in a searchable and filterable list. To get started, you should create a pull request.
 点击 create a pull request.然后一路确定即可将自己的代码更新。
