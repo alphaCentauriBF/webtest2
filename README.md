@@ -78,30 +78,15 @@ test_initdb_command (test_cli.CLITestCase) ... FAIL
 第五个测试是对于张佳承负责部分代码的测试，路径在albumy\albumy\/__init/__.py 的109行处，去掉注释测试即可成功
 
 
-## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+## 任务
+我们每个人要做的就是，复制一个程序副本，然后找到自己对应的部分，将注释去掉，再提交pull request合并分支，模拟协作开发的过程。下面我将给出一个参考，知只是一种可行的方式而已，各位同学可以选择自己喜欢的方式。
 
-## Contributing
+## 项目背景
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
+本项目是一个图文网站，假设我（冯桂璠）是项目的发起者，我在这里创建了一个仓库，然后你们都与我进行协作开发，在代码中注释的部分假装是没有实现的功能，我们每个人都负责其中的一部分，为了方便我们直接把注释去掉即可直接运行。下面假装我是小黑，我使用pycharm与github desktop。
+### fork项目
+首先，我
 ## Acknowledgments
 
 * Hat tip to anyone whose code was used
