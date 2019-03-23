@@ -29,10 +29,10 @@ def index():
     tag_count = Tag.query.count()
     comment_count = Comment.query.count()
     reported_comments_count = Comment.query.filter(Comment.flag > 0).count()
-    # return render_template('admin/index.html', user_count=user_count, photo_count=photo_count,
-    #                        tag_count=tag_count, comment_count=comment_count, locked_user_count=locked_user_count,
-    #                        blocked_user_count=blocked_user_count, reported_comments_count=reported_comments_count,
-    #                        reported_photos_count=reported_photos_count)
+    return render_template('admin/index.html', user_count=user_count, photo_count=photo_count,
+                           tag_count=tag_count, comment_count=comment_count, locked_user_count=locked_user_count,
+                           blocked_user_count=blocked_user_count, reported_comments_count=reported_comments_count,
+                           reported_photos_count=reported_photos_count)
 ##上面为小黑的部分，把这一部分的注释去掉
 
 @admin_bp.route('/profile/<int:user_id>', methods=['GET', 'POST'])
