@@ -89,9 +89,9 @@ def register_errorhandlers(app):
     def forbidden(e):
         return render_template('errors/403.html'), 403
 
-    # @app.errorhandler(404)
-    # def page_not_found(e):
-    #     return render_template('errors/404.html'), 404
+     @app.errorhandler(404)
+     def page_not_found(e):
+         return render_template('errors/404.html'), 404
 ###张宇昊部分，把注释去掉
     @app.errorhandler(413)
     def request_entity_too_large(e):
